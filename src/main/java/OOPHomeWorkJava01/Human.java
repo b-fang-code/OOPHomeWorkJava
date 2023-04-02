@@ -1,6 +1,6 @@
 package OOPHomeWorkJava01;
 
-public abstract class Human {
+public  class Human {
     public String name;
     public String sex;
     public Integer age;
@@ -30,5 +30,7 @@ public abstract class Human {
                 '}';
     }
 
-    public abstract void hello();
+    public void hello(){
+        System.out.println("Привет, меня зовут... ");
+    }
 }
