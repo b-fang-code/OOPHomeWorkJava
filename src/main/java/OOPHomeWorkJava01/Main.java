@@ -11,6 +11,10 @@ public class Main {
                 167, "Коричневый");
         daughter.hello();
         System.out.println(daughter.display());
+        daughter.setName("Полина Павловна");
+        System.out.println("Прошу называть меня "+ daughter.getName());
+
+        System.out.println(daughter.display());
         System.out.println("========================================================================================");
         Son son = new Son("Аркаша", "Мужской", 11, "Серый", 150,
                 "Тёмный");

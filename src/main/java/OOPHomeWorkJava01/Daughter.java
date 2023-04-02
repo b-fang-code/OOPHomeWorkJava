@@ -9,7 +9,7 @@ public class Daughter extends Parent {
 
     @Override
     public void hello() {
-        System.out.println("Привет, меня зовут " + name);
+        System.out.println("Привет, меня зовут " + getName());
     }
 }
 
