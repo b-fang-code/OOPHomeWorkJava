@@ -1,0 +1,34 @@
+package OOPHomeWorkJava01;
+
+public abstract class Human {
+    public String name;
+    public String sex;
+    public Integer age;
+    public String eyeColor;
+    public Integer height;
+    public String hairColor;
+
+
+    public Human(String name, String sex, Integer age, String eyeColor, Integer height, String hairColor) {
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+        this.eyeColor = eyeColor;
+        this.height = height;
+        this.hairColor = hairColor;
+    }
+
+
+    public String display() {
+        return "Мои данные: {" +
+                " Имя - " + name + '\'' +
+                ", Пол - " + sex + '\'' +
+                ", Возраст - " + age +
+                ", Цвет глаз - " + eyeColor + '\'' +
+                ", Рост - " + height +
+                ", Цвет волос - " + hairColor + '\'' +
+                '}';
+    }
+
+    public abstract void hello();
+}
